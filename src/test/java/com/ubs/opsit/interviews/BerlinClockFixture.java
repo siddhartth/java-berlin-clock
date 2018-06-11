@@ -12,8 +12,10 @@ import static org.assertj.core.api.Assertions.assertThat;
  * edit this class to complete the exercise, this is your definition of done.
  */
 public class BerlinClockFixture {
-
-    private TimeConverter berlinClock;
+    
+    //Initializing berlin clock inplementation class (MyBerlinClock) object here
+    
+    private TimeConverter berlinClock = new MyBerlinClock();
     private String theTime;
 
     @Test
